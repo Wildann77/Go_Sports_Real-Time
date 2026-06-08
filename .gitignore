@@ -1,0 +1,36 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+Thumbs.db
+*.log
+.env*
+!.env.example
+.agents/
+
+# Go build binaries & test artifacts
+bin/
+*.test
+*.out
+coverage.txt
+
+# Application logs
+logs/
+
+# Agent/IDE specific files
+skills-lock.json
+metadata.json
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.swp
+*.swo
+
+# OpenCode local configuration
+opencode.json
+
+# End of gitignore
